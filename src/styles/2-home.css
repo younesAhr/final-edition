@@ -23,7 +23,7 @@
 }
 .homeSentence2,.homeSentence3{
     color: var(--dark_blue);
-    font-size: 3.1em;
+    font-size: 3em;
     font-weight: 600;
 }
 .homeSentence4{
@@ -113,7 +113,7 @@
         text-align: center;
         background-color: var(--light_blue);
         border-radius: 0.2em;
-        padding: 0.3em 0.9em 0.3em 0.9em;
+        padding: 0.4em 1em 0.4em 1em;
         margin: 2em 0 0 0;
         display: block;
     }
@@ -142,7 +142,7 @@
         text-align: center;
         background-color: var(--light_blue);
         border-radius: 0.2em;
-        padding: 0.3em 0.9em 0.3em 0.9em;
+        padding: 0.4em 1em 0.4em 1em;
         margin: 2em 0 0 0;
         display: block;
     }
@@ -171,7 +171,7 @@
         text-align: center;
         background-color: var(--light_blue);
         border-radius: 0.2em;
-        padding: 0.3em 0.9em 0.3em 0.9em;
+        padding: 0.4em 1em 0.4em 1em;
         margin: 2em 0 0 0;
         display: block;
     }

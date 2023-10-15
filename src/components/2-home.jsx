@@ -1,11 +1,11 @@
-import './../styles/home.css'
+import './../styles/2-home.css'
 import pic12 from './../pics/pic12.png'
 import { Link } from 'react-router-dom';
 
 export default function Home(){
     return(
         <>
-            <section className="home">
+            <section className="home" id='home'>
                 <article className='homeSentences'>
                     <p className="homeSentence1">INTRODUCTING A NEW HEALTH CARE</p>
                     <p className="homeSentence2">Bringing Loving</p>

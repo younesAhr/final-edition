@@ -1,4 +1,4 @@
-import './../styles/statsBar.css'
+import './../styles/3-statsBar.css'
 
 export default function StatsBar(){
     return(

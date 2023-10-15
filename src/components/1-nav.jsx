@@ -1,4 +1,4 @@
-import './../styles/nav.css'
+import './../styles/1-nav.css'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars , faClose } from '@fortawesome/free-solid-svg-icons';
@@ -28,8 +28,8 @@ export default function Nav(){
                 <p className="logo">Zeta</p>
                 <FontAwesomeIcon icon={oc} className='menu' onClick={menu}/>
                 <nav className="navbar" id='navbar'>
-                    <a href="" className="links" onClick={link}>Home</a>
-                    <a href="" className="links" onClick={link}>Services</a>
+                    <a href="#home" className="links" onClick={link}>Home</a>
+                    <a href="#services" className="links" onClick={link}>Services</a>
                     <a href="" className="links" onClick={link}>About</a>
                     <a href="" className="links" onClick={link}>Contact</a>
                 </nav>
