@@ -23,12 +23,12 @@
 .servicesTitle1{
     color: var(--light_blue);
     font-size: 1.5em;
-    font-weight: 600;
+    font-weight: 500;
 }
 .servicesTitle2{
     color: var(--dark_blue);
-    font-size: 3em;
-    font-weight: 600;
+    font-size: 2.7em;
+    font-weight: 500;
 }
 .cardsContainer{
     width: 100%;

@@ -30,8 +30,8 @@ export default function Nav(){
                 <nav className="navbar" id='navbar'>
                     <a href="#home" className="links" onClick={link}>Home</a>
                     <a href="#services" className="links" onClick={link}>Services</a>
-                    <a href="" className="links" onClick={link}>About</a>
-                    <a href="" className="links" onClick={link}>Contact</a>
+                    <a href="#about" className="links" onClick={link}>About</a>
+                    <a href="#contact" className="links" onClick={link}>Contact</a>
                 </nav>
                 <Link className="login" to="/login">log in</Link>
             </header>

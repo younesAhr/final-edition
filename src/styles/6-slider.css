@@ -1,0 +1,48 @@
+:root{
+    --dark_blue:#004861;
+    --light_blue:#00A3CB;
+    --light_white:#f6fafd;
+    --light_grey:#949191;
+}
+.slider{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.changePictures{
+    color: white;
+    font-size: 3em;
+    background-color: black;
+    opacity: 0.7;
+    border: 0;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    position: absolute;
+}
+#left{
+    left: 0;
+}
+#right{
+    right: 0;
+}
+/* for large screen tablets */
+@media only screen and (max-width: 900px) and (min-width: 700px){
+}
+/* for normal screen tablets */
+@media only screen and (max-width: 699px) and (min-width: 450px){
+    .sliderPicture{
+        width: 100%;
+    }
+}/* for phones */
+@media only screen and (max-width: 449px) and (min-width: 360px){
+    .sliderPicture{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 359px){
+    .sliderPicture{
+        width: 100%;
+    }
+} 
