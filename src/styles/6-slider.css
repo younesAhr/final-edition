@@ -28,7 +28,7 @@
     right: 0;
 }
 /* for large screen tablets */
-@media only screen and (max-width: 900px) and (min-width: 700px){
+@media only screen and (max-width: 950px) and (min-width: 700px){
 }
 /* for normal screen tablets */
 @media only screen and (max-width: 699px) and (min-width: 450px){

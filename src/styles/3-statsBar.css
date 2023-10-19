@@ -24,7 +24,7 @@
     align-self: center;
 }
 /* for large screen tablets */
-@media only screen and (max-width: 900px) and (min-width: 700px){
+@media only screen and (max-width: 950px) and (min-width: 700px){
     .statsBar{
         height: 7em;
     }
