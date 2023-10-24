@@ -68,7 +68,7 @@
     background-color: white;
 }
 /* for large screen tablets */
-@media only screen and (max-width: 900px) and (min-width: 700px){
+@media only screen and (max-width: 950px) and (min-width: 700px){
     .head{
         grid-template-columns: 1fr 3fr 1fr;
     }

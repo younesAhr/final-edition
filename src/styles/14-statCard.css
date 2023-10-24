@@ -1,0 +1,61 @@
+:root{
+    --dark_blue:#004861;
+    --light_blue:#00A3CB;
+    --light_white:#f6fafd;
+    --light_grey:#949191;
+}
+.statisticCard{
+    height: 100%;
+    width: 90%;
+    background-color: white;
+    border-radius: 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+}
+.statisticCardTitles{
+    height: 3em;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.statisticsLogo{
+    height: 2.5em;
+    width: 2.5em;
+    color: var(--light_blue);
+    background-color:#dcecf0;
+    border-radius: 50%;
+}
+.statisticCardNumber{
+    width: 80%;
+    font-size: 2em;
+    font-weight: 500;
+}
+.statisticPercent{
+    height: 3em;
+    width:80%;
+}
+@media only screen and (max-width: 950px) and (min-width: 700px){
+    .statisticCard{
+        width: 100%;
+    }
+}
+/* for normal screen tablets */
+@media only screen and (max-width: 699px) and (min-width: 450px){
+    .statisticCard{
+        width: 100%;
+    }
+}/* for phones */
+@media only screen and (max-width: 449px) and (min-width: 360px){
+    .statisticCard{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 359px){
+    .statisticCard{
+        width: 100%;
+    }
+} 

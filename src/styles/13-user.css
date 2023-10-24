@@ -1,0 +1,41 @@
+:root{
+    --dark_blue:#004861;
+    --light_blue:#00A3CB;
+    --light_white:#f6fafd;
+    --light_grey:#949191;
+}
+.paitentsDataContainer{
+    height: 3em;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    margin: 1em 0 0 0;
+}
+.paitentsDataContainer:hover{
+    background-color: aliceblue;
+}
+.paitentData{
+    color: #7794A7;
+    font-size: 1.1em;
+}
+#pushResults:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 950px) and (min-width: 700px){
+}
+/* for normal screen tablets */
+@media only screen and (max-width: 699px) and (min-width: 450px){
+
+}/* for phones */
+@media only screen and (max-width: 449px) and (min-width: 360px){
+    .paitentsDataContainer{
+        width: 100%;
+    }
+    .paitentData{
+        width: auto;
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width: 359px){
+
+} 

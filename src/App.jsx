@@ -1,12 +1,14 @@
 import './App.css'
+import { Route, Routes } from 'react-router-dom'
 import Nav from './components/1-nav.jsx'
 import Home from './components/2-home.jsx'
 import StatsBar from './components/3-statsBar.jsx'
 import Services from './components/4-services.jsx'
 import About from './components/5-about.jsx'
 import Contact from './components/7-contact.jsx'
+import Admin from './components/9-admin'
 
-export default function App(){
+function Portfolio(){
   return(
     <>
       <Nav />
@@ -14,7 +16,16 @@ export default function App(){
       <StatsBar />
       <Services />
       <About />
-      <Contact />
+      <Contact /> 
     </>
+  )
+}
+export default function App(){
+  return(
+    <Routes>
+      <Route path='/' element={<Portfolio />} />
+      <Route path='/login' />
+      <Route path='/admin' element={<Admin />} />
+    </Routes>
   )
 }

@@ -41,7 +41,7 @@ export default function Contact(){
                     <p className="contactSubTitles">bone-scan</p>
                     <p className="contactSubTitles">more scans</p>
                 </div>
-                <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25569.22542728421!2d3.0415312851656275!3d36.76689260339025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb2f877796ffd%3A0x62ac3794efff79ca!2sEl%20Djazair!5e0!3m2!1sen!2sdz!4v1693406643515!5m2!1sen!2sdz" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6394.50432239317!2d3.0338260545828257!3d36.740517999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fad88d7d50bfd%3A0xf72e616d026d0a67!2sLaboratoire%20Bioplus%20Sidi%20Yahia!5e0!3m2!1sen!2sdz!4v1697732394526!5m2!1sen!2sdz" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 <p className='copyRight'>© Copyright Zeta-Agency and contributors.by bourada amine&Achour Younes</p>
             </section>
         </>

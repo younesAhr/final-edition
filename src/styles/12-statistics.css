@@ -1,0 +1,107 @@
+:root{
+    --dark_blue:#004861;
+    --light_blue:#00A3CB;
+    --light_white:#f6fafd;
+    --light_grey:#949191;
+}
+.statistics{
+    height: 100%;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 6em 2fr 4fr;
+    grid-column: 2/3;
+
+}
+.statisticsHead{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    grid-column: 1/5;
+}
+.overview{
+    font-size: 1.5em;
+}
+.statisticsTabs{
+    width: 12em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.statisticsTab{
+    width: 2.5em;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 0.4em;
+}
+.statisticsTab:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.statisticsCurve{
+    justify-self: center;
+    align-self: center;
+    margin-top: 1em;
+    grid-column: 1/5;
+}
+@media only screen and (max-width: 950px) and (min-width: 700px){
+    .statistics{
+        grid-column: 1/2;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 6em 2fr 2fr 4fr;
+        gap: 0.5em;
+    }
+    .statisticsHead{
+        grid-column: 1/3;
+    }
+    .statisticsCurve{
+        grid-column: 1/3;
+    }
+}
+/* for normal screen tablets */
+@media only screen and (max-width: 699px) and (min-width: 450px){
+    .statistics{
+        grid-column: 1/2;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 6em 2fr 2fr 4fr;
+        gap: 0.5em;
+    }
+    .statisticsHead{
+        grid-column: 1/3;
+    }
+    .statisticsCurve{
+        grid-column: 1/3;
+    }
+}/* for phones */
+@media only screen and (max-width: 449px) and (min-width: 360px){
+    .statistics{
+        grid-column: 1/2;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 6em 2fr 2fr 4fr;
+        gap: 0.5em;
+    }
+    .statisticsHead{
+        grid-column: 1/3;
+    }
+    .statisticsCurve{
+        grid-column: 1/3;
+    }
+}
+@media only screen and (max-width: 359px){
+    .statistics{
+        grid-column: 1/2;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 6em 2fr 2fr 4fr;
+        gap: 0.5em;
+    }
+    .statisticsHead{
+        grid-column: 1/3;
+    }
+    .statisticsCurve{
+        grid-column: 1/3;
+    }
+} 
